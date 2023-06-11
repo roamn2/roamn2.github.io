@@ -8,7 +8,13 @@
 		<p>You will be redirected in <span id="timer"></span> seconds. If this doesn't happen, redirect manually by clicking <a href="https://zelnicek.ch">here</a>!</p>
 		<script>
 			let t = 7;
-			setInterval(function(){ t--; document.getElementById("timer").innerHTML = t; if(t<0 {window.location.assign('http://zelnicek.ch');}) }, 1000);
+			setInterval(
+				function() { 
+					t--; 
+					document.getElementById("timer").innerHTML = t; 
+					if(t<0 {
+					   	window.location.assign('http://zelnicek.ch');
+					}, 1000);
 		</script>
 	</body>
 </html>
