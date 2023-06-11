@@ -5,9 +5,10 @@
 		<title>Welcome!</title>
 	</head>
 	<body>
-		<p>You will be redirected in 5 seconds. If this doesn't happen, redirect manually by clicking <a href="https://zelnicek.ch">here</a>!</p>
+		<p>You will be redirected in <span id="timer"></span> seconds. If this doesn't happen, redirect manually by clicking <a href="https://zelnicek.ch">here</a>!</p>
 		<script>
-			setTimeout(function(){ window.location.assign('https://zelnicek.ch'); }, 5000);
+			let t = 7;
+			setInte4val(function(){ t--; if(t<0 {window.location.assign('http://zelnicek.ch');}) }, 1000);
 		</script>
 	</body>
 </html>
